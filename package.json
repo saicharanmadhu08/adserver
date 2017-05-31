@@ -1,0 +1,19 @@
+{
+  "name": "adserver",
+  "version": "1.0.0",
+  "description": "this is Ad server done using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saicharanmadhu08/adserver.git"
+  },
+  "author": "Sai Madhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saicharanmadhu08/adserver/issues"
+  },
+  "homepage": "https://github.com/saicharanmadhu08/adserver#readme"
+}
