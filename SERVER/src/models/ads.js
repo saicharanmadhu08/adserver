@@ -14,6 +14,10 @@ const adSchema = new Schema({
     },
     ad_content: {
         type: String
+    },
+    time_of_creation: {
+        type: String,
+        required: true
     }
 });
 
