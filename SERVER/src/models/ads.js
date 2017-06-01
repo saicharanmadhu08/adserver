@@ -5,8 +5,7 @@ const adSchema = new Schema({
     partner_id: {
         type: String,
         required: true,
-        trim: true,
-        unique: true
+        trim: true
     },
     duration: {
         type: Number,
