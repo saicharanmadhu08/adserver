@@ -2,13 +2,14 @@ const Ads = require('../models/ads');
 const moment = require('moment');
 
 exports.saveAd = (req, res) => {
-
     const partner_id = req.body.partner_id;
     const duration = req.body.duration;
     const ad_content = req.body.ad_content;
     const time_of_creation = moment().format();
 
+
     const ads = new Ads({ partner_id, duration, ad_content, time_of_creation });
+
 
     Ads.find({ partner_id })
         .then(doc => {

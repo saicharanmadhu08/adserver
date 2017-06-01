@@ -4,7 +4,8 @@
   "description": "this is Ad server done using Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node SERVER/src/server.js",
+    "test": "mocha SERVER/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -18,17 +19,19 @@
   "homepage": "https://github.com/saicharanmadhu08/adserver#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "chai": "^4.0.1",
     "express": "^4.14.0",
     "lodash": "^4.15.0",
     "moment": "^2.18.1",
     "mongodb": "^2.2.5",
     "mongoose": "^4.5.9",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0",
+    "should": "^11.2.1"
   },
   "devDependencies": {
-    "expect": "^1.20.2",
-    "mocha": "^3.0.2",
-    "nodemon": "^1.10.2",
-    "supertest": "^2.0.0"
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^3.4.2"
   }
 }
